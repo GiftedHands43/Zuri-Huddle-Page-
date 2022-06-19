@@ -9,6 +9,10 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+main {
+  transition: width 0.15s ease-in-out, flex 0.15s ease-in-out;
+}
 .container{
   display: block;
 }
@@ -381,6 +385,7 @@ a:link {
   margin: 0px;
   }
 .container-1{
+  background-image: url('bg-hero-mobile.svg');
   width: 100%;
   display: block;
   margin: 0px;
