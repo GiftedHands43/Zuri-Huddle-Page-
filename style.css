@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.container{
+  display: block;
+}
+
+.container-1{
+  background-image: url('bg-hero-desktop.svg');
+ background: hsl(193, 100%, 96%);
+  display: block;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+}
+
+.con {
+  display: flex;
+}
+
+.con-1 {
+  flex: 1;
+  display: block;
+}
+
+.logo-1{
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-bottom: 50px;
+}
+
+.lg-1 {
+ width: 200px; 
+}
+
+h2{
+  padding-top: 80px;  
+  margin-left: 60px;  
+  margin-right: 200px;
+  text-align: left;        
+  line-height: 60px;      
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+
+}
+
+h6{
+  font-size: 20px;
+  margin-left: 60px;
+  text-align: left;
+  margin-right: 200px;
+  padding-top: 30px;
+  line-height: 25px;
+  padding-bottom: 25px;
+  font-weight: 700px;
+  font-family: 'Open Sans', sans-serif;
+   color: hsl(192, 100%, 9%);
+ 
+}
+
+.button-1{
+  padding: 15px;
+  border-radius: 25px;
+ width: 40%;
+  background: hsl(322, 100%, 66%);
+  border: none;
+  margin-left: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.button-2{
+  padding: 13px;
+  border-radius: 25px;
+  width: 20%;
+  margin-top: 40px; 
+  margin-left: 900px;
+  margin-bottom: 50px;
+  border: none;
+  background: white;
+  
+}
+
+
+.con-2{
+  
+}
+
+.img-1 {
+  width: 650px;
+   margin-right: 40px;
+  margin-bottom: 40px;
+ 
+}
+
+.image-1 {
+  margin-right: 40px;
+  margin-bottom: 40px;
+  
+}
+
+.container-2{
+  display: block;
+}
+   
+
+.card-1 {
+  display: flex;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: white;
+  width: 90%;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 70px;
+  
+  
+}
+
+.gt {
+  flex: 1;
+  margin-left: 80px; 
+
+}
+
+h3 {
+  font-size: 30px;
+  padding-left: 60px;
+  padding-top: 70px;
+  font-family: 'Poppins', sans-serif;
+  color: hsl(192, 100%, 9%);
+}
+
+p {
+ text-align: left;
+  padding-left: 60px;
+  padding-right: 350px;
+  font-size: 18px;
+  padding-top: 25px;
+  line-height: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400px;
+  color: hsl(208, 11%, 55%)
+}
+
+.gti {
+ margin-right: 50px; 
+}
+
+.card-2 {
+  display: flex;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: white;
+  width: 90%;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 70px;
+  
+}
+
+.img-2 {
+width: 350px;
+}
+
+.img-3 {
+width: 400px;
+}
+
+
+.img-4 {
+  width: 400px;
+}
+
+.fci {
+  margin-left: 140px;
+  max-width: 400px;
+}
+
+.fch {
+  font-size: 30px;
+  padding-left: 360px;
+  padding-top: 70px;
+  margin-right: 10px;
+}
+
+.fcp {
+  text-align: left;
+  padding-left: 360px;
+  padding-right: 30px;
+  font-size: 18px;
+  padding-top: 25px;
+  line-height: 25px;
+ 
+}
+
+.card-3 {
+  display: flex;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: white;
+  width: 90%;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 70px;
+  
+}
+
+.overlay {
+  width: 60%;
+  margin: 0 auto 0 auto;
+  box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 5px;
+  position: relative;
+  top: 100px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.oh {
+  margin-top: 0px;
+  padding-bottom: 20px;
+  margin-left:100px;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button-3 {
+ padding: 15px;
+  border-radius: 25px;
+ width: 40%;
+  background: hsl(322, 100%, 66%);
+  border: none;
+  margin-left: 260px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 50px;
+}
+  
+
+.container-3{
+  background-color: hsl(192, 100%, 9%);
+  width: 100%;
+  display: flex;
+font-family: 'Open Sans', sans-serif;
+  font-weight: 400px;
+}
+
+.line-1{
+  margin-top: 150px;
+  display: block;
+  width: 30%;
+  padding-left: 50px;
+  margin-right: 100px;
+  margin-bottom: 90px;
+}
+
+.logo-2 {
+  filter: brightness(0) invert(1);
+}
+
+.f1 {
+  padding-right: 20px;
+  padding-top: 35px;
+}
+.f2 {
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.f3 {
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.line-2 {
+  display: block;
+  width: 20%;
+  margin-top: 230px;
+  margin-right: 200px;
+}
+
+.a {
+  padding-bottom: 20px;
+}
+.w {
+  padding-bottom: 20px;
+}
+.f {
+  padding-bottom: 20px;
+}
+
+.line-3 {
+  display: block;
+  width: 20%;
+  margin-top: 230px;
+  margin-right: 100px;
+}
+
+.c {
+  padding-bottom: 20px;
+}
+.b {
+  padding-bottom: 20px;
+}
+.cu {
+  padding-bottom: 20px;
+}
+
+
+.line-4 {
+  margin-top: 230px;
+   display: block;
+  width: 30%;
+  margin-right: 30px;
+}
+
+.ml {
+  display: flex;
+}
+
+.ml1 {
+  filter: brightness(0) invert(1);
+  border-radius: 50%;
+  border: 1px solid white;
+  background: transparent;
+  padding: 4px;
+}
+
+.ml2 {
+  filter: brightness(0) invert(1);
+  border-radius: 50%;
+  border: 1px solid white;
+  background: inherit;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.ml3 {
+  filter: brightness(0) invert(1);
+  border-radius: 50%;
+  border: 1px solid white;
+  background: inherit;
+  padding: 8px;
+  margin-left: 12px;
+}
+
+.small{
+  margin-top: 150px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+a {
+  color: white;
+  font-size: 15px;
+}
+
+a:link {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+  width: 100%;
+  margin: 0px;
+  }
+.container-1{
+  width: 100%;
+  display: block;
+  margin: 0px;
+}
+.con {
+  display: block;
+  width: 100%;
+}
+
+  .top {
+    width: 100%;
+  }
+  
+.con-1 {
+  display: block;
+  width: 100%;
+}
+
+.con-2 {
+  width: 100%;
+}
+
+.lg-1 {
+  width: 100px;
+}
+
+.logo-1 {
+  padding-top: 25px;
+  padding-left: 15px;
+
+}
+  
+  .button-2 {
+    width: 40%;
+    padding: 8px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+  
+  h2 {
+    font-size: 30px;
+    line-height: 30px;
+    padding-top: 40px;  
+  margin-left: 10px;  
+  margin-right: 10px;
+  text-align: center;        
+  }
+
+h6{
+  margin-left: 10px;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 30px;
+  line-height: 25px;
+  padding-bottom: 35px;
+  font-weight: normal;
+}
+
+.button-1{
+  padding: 10px;
+ width: 80%;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+.img-1 {
+  width: 90%;
+  padding-left: 15px;
+  padding-right: 5px;
+padding-bottom: 40px;
+
+}
+
+.container-2 {
+  width: 100%;
+  margin: 0px;
+}
+  
+.img-2 {
+width: 90%;
+}
+
+.img-3 {
+width: 90%;
+}
+  
+.img-4 {
+  width: 90%;
+  }
+
+.card-1, .card-2, .card-3 {
+ display: block;
+  margin-left: 15px;
+  margin-right: 15px; 
+  width: 85%;
+}
+
+.gt {
+  width: 80%;
+  margin-left: 20px;
+  margin-right: 0px;
+  
+}
+
+.gti, .fci {
+  width: 80%;
+  margin-left: 30px;
+  margin-right: 0px;
+}
+ 
+h3 {
+  text-align: center;
+  margin-left: 10px;  
+  margin-right:0px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+.fch {
+    padding-left: 0px;
+  }
+
+.fcp {
+  padding-left: 0px;
+}  
+  
+p {
+   margin-left: 10px;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  font-weight: normal;
+  padding-left: 0px;
+padding-right: 0px;  
+}
+  
+.overlay {
+  width: 85%;
+  margin-left: 10px;
+  margin-bottom: -150px;
+  padding: 20px;
+  position: relative;
+
+} 
+
+.oh {
+font-size: 25px;
+padding-left: 10px;
+ margin: 0px;
+  padding-right: 10px;
+}
+
+.button-3 {
+  margin-left: 35px;
+  width: 70%;
+}
+  
+.container-3 {
+  display: block;
+  width: 100%;
+  margin: 0px;
+}
+
+.line-1 {
+  width: 80%;
+  padding-left: 20px;
+  padding-top: 150px;
+  padding-bottom: 0px;
+}
+  
+.line-2 {
+  width: 80%;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.line-3 {
+  width: 80%;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 20px;
+  
+}
+
+.line-4 {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ml { 
+  margin-left: 100px;
+}
+
+.small {
+  margin-top: 20px;
+  padding-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 0px;
+}
+  
+}
