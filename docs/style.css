@@ -379,6 +379,48 @@ a:link {
   background-color: transparent;
 }
 
+.button-1:hover {
+
+  background: hsl(322, 100%, 76%);
+
+}
+
+.button-3:hover {
+
+  background: hsl(322, 100%, 76%);
+
+}
+
+.button-2:hover {
+
+  color: hsl(208, 11%, 55%);
+
+}
+
+a:hover {
+
+  text-decoration: underline;
+
+}
+
+.ml1:hover {
+
+  filter: hue-rotate(232deg);
+
+}
+
+ .ml2:hover {
+
+  filter: hue-rotate(232deg);
+
+}
+
+.ml3:hover {
+
+  filter: hue-rotate(232deg);
+
+}
+
 @media only screen and (max-width: 768px) {
   main {
   width: 100%;
